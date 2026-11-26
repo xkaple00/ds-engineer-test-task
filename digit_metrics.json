@@ -1,0 +1,12 @@
+{
+  "seed": 42,
+  "cnn_train_rows": 24000,
+  "rf_train_rows": 24000,
+  "epochs": 6,
+  "mnist_test_rows": 10000,
+  "test_accuracy": {
+    "cnn": 0.9817,
+    "rf": 0.9579,
+    "rand": 0.1031
+  }
+}

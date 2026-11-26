@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+.wheels/
+.pytest_cache/
+.ipynb_checkpoints/
+data/
+/train.csv
+/hidden_test.csv
+/artifacts/

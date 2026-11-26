@@ -1,0 +1,55 @@
+{
+  "seed": 42,
+  "rows": {
+    "fit": 72000,
+    "selection": 9000,
+    "audit": 9000,
+    "final": 90000
+  },
+  "selected": "magnitude_remainder",
+  "audit_rmse": 0.0,
+  "audit_baseline_rmse": 28.866641752888153,
+  "candidates": {
+    "mean": {
+      "selection_rmse": 28.970771536904543,
+      "mse_gain_over_mean": 0.0,
+      "mse_gain_lower_bound": 0.0,
+      "audit_rmse": 28.866641752888153
+    },
+    "ridge": {
+      "selection_rmse": 28.968676264933258,
+      "mse_gain_over_mean": 0.12139890101114871,
+      "mse_gain_lower_bound": -0.6874992717007006,
+      "audit_rmse": 28.8671666527159
+    },
+    "binned_ridge": {
+      "selection_rmse": 7.500494117082898,
+      "mse_gain_over_mean": 783.0481914431235,
+      "mse_gain_lower_bound": 763.9184782047344,
+      "audit_rmse": 7.600827314388126
+    },
+    "lightgbm_small": {
+      "selection_rmse": 0.5508752558129679,
+      "mse_gain_over_mean": 839.0021398960517,
+      "mse_gain_lower_bound": 819.3474612265669,
+      "audit_rmse": 0.5730278497360585
+    },
+    "lightgbm_flexible": {
+      "selection_rmse": 0.19671942685262198,
+      "mse_gain_over_mean": 839.2669049106175,
+      "mse_gain_lower_bound": 819.5983693463633,
+      "audit_rmse": 0.19490595720488815
+    },
+    "magnitude_remainder": {
+      "selection_rmse": 0.0,
+      "mse_gain_over_mean": 839.3056034435185,
+      "mse_gain_lower_bound": 819.636867164197,
+      "audit_rmse": 0.0
+    }
+  },
+  "fitted_coefficients": {
+    "intercept": -0.0,
+    "rounded_feature_6_squared": 1.0,
+    "feature_7": 1.0
+  }
+}
